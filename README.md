@@ -2,18 +2,21 @@
   <img src="https://raw.githubusercontent.com/FAXES/disinvite/main/logo.png" style="width: 80%;" alt="logo" />
 </p>
 
-Disinvite allows you to generate a live SVG of a Discord invite, with member counts and server status (hub, partnered, or verified). These can be used anywhere; GitHub README's, websites, or anywhere that can display an image.
+<p align="center">Disinvite allows you to generate a live SVG of a Discord invite, with member counts and server status (hub, partnered, or verified). These can be used anywhere; GitHub README's, websites, or anywhere that can display an image.</p>
 
 ---
 
 #### Functions:
 **disinvite.getInvite(InviteCode [, options])**
+
 **disinvite.get(InviteCode [, options])**
 
 *getInvite() and get() are the same function.*
 
 **Options:**
+
 **options.theme**: "dark" or "light". Defaults to "Dark"
+
 **options.language**: ISO 639-1 language code. Defaults to "en"
 
 #### Example:

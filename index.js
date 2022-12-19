@@ -16,7 +16,7 @@ const whitneyBold = TextToSVG.loadSync(__dirname+'/fonts/WhitneyBoldRegular.ttf'
 const whitneySemibold = TextToSVG.loadSync(__dirname+'/fonts/WhitneySemiboldRegular.ttf');
 const whitneyMedium = TextToSVG.loadSync(__dirname+'/fonts/WhitneyMediumRegular.ttf');
 
-const langs = require('./lang.json');
+const langs = require(__dirname+'/lang.json');
 
 const API_BASE_URL = 'https://discord.com/api/v10';
 const CDN_BASE_URL = 'https://cdn.discordapp.com';

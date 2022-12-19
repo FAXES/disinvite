@@ -12,9 +12,9 @@ SVG.extend([SVG.Path, SVG.Circle], {
     }
 });
 
-const whitneyBold = TextToSVG.loadSync('./fonts/WhitneyBoldRegular.ttf');
-const whitneySemibold = TextToSVG.loadSync('./fonts/WhitneySemiboldRegular.ttf');
-const whitneyMedium = TextToSVG.loadSync('./fonts/WhitneyMediumRegular.ttf');
+const whitneyBold = TextToSVG.loadSync(__dirname+'/fonts/WhitneyBoldRegular.ttf');
+const whitneySemibold = TextToSVG.loadSync(__dirname+'/fonts/WhitneySemiboldRegular.ttf');
+const whitneyMedium = TextToSVG.loadSync(__dirname+'/fonts/WhitneyMediumRegular.ttf');
 
 const langs = require('./lang.json');
 

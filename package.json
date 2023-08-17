@@ -1,6 +1,6 @@
 {
   "name": "disinvite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a Discord invite image from invite code.",
   "main": "index.js",
   "scripts": {
